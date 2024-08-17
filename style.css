@@ -1,0 +1,84 @@
+.bg {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/10/21/57/heart-1192662_1280.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
+  padding-top: 80px;
+}
+
+.Login {
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: auto;
+  background-color: rgb(218, 218, 51);
+  padding-top: 2%;
+  padding-bottom: 5%;
+  border-radius: 10%;
+  border-color: rgb(18, 12, 2);
+  opacity: 0.75;
+  border: 1px solid;
+  /* background-position: center center; */
+}
+
+.inner_box {
+  padding: 10%;
+  width: 230px;
+  height: auto;
+  background-color: rgb(104, 122, 11);
+  border-radius: 10%;
+  border: 1px solid black;
+}
+
+.Login:hover {
+  opacity: 1;
+}
+
+.image {
+  display: flex;
+  background-image: url("https://cdn.pixabay.com/photo/2024/02/19/02/02/login-8582362_1280.png");
+  background-size: cover;
+  width: 100px;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border-radius: 20%;
+}
+
+button {
+  border-radius: 15%;
+  width: 80px;
+  height: 30px;
+  color: yellow;
+  background-color: rgb(32, 31, 3);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(46, 45, 45);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.forgot_password{
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgot_password:hover{
+  text-decoration: underline;
+  color: rgb(250, 228, 34);
+}
